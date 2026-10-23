@@ -1,8 +1,9 @@
 {
   "schema_version": 1,
-  "distribution": "source-only review candidate",
+  "distribution": "private preview with explicitly selected historical media",
   "contains_model_weights": false,
-  "contains_media": false,
+  "contains_media": true,
+  "media_scope": "examples/assets only; not MIT licensed; public release requires separate confirmation and rights review",
   "files": [
     {
       "path": ".env.example",
@@ -16,8 +17,8 @@
     },
     {
       "path": "ACKNOWLEDGEMENTS.md",
-      "bytes": 4843,
-      "sha256": "5fc3418749b76daeb64fbffaa7dc5a7da9c57f280cdb1486138a12c2a72a9e2b"
+      "bytes": 4990,
+      "sha256": "de83d1bdef8a461e334baa5ae8f0f598e22fc6171e7ed0561870ac6c94d477c4"
     },
     {
       "path": "AGENTS.md",
@@ -31,13 +32,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9113,
-      "sha256": "bd10bef02c79086a103032f7597f92548be5b5c9d2dd8167018aba5d05f550e6"
+      "bytes": 13071,
+      "sha256": "6f77e5cf5de7f203d083529f7bae19d3f6c5f5860108c69dfd48fd9005f990b6"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 26237,
-      "sha256": "c289f39a1fa10f3f42280c52bf0a0abb0956c08c4939a552bbe0ecd9d565fbc4"
+      "bytes": 26447,
+      "sha256": "81add39f275dd1b5d5e63e5af63f3afff38852c652c233b236b16d4ec5538ee4"
     },
     {
       "path": "VALIDATION.md",
@@ -56,8 +57,8 @@
     },
     {
       "path": "docs/PRIVACY.md",
-      "bytes": 1982,
-      "sha256": "2e9faa8113533208ef32789774ace0a128245ed6f3851b79200f31bf882d337d"
+      "bytes": 2673,
+      "sha256": "0fe7e3c8fb07cb3d7a24218c26cf6ab2ab8d81be74d7448d2a3eb53f8af206b1"
     },
     {
       "path": "docs/SUPPORT.md",
@@ -113,6 +114,96 @@
       "path": "dubkit/speech.py",
       "bytes": 10419,
       "sha256": "f852e8115338d11555b76a05e7ca27c23d72c1b4609cbbd461991ba299f98bec"
+    },
+    {
+      "path": "examples/LICENSE.md",
+      "bytes": 1609,
+      "sha256": "196e5052c3f5d2d6eeb217ef428674181094706fd5a61cbea3935ff129434a10"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 7088,
+      "sha256": "1d10b316d3635410669bfd4ea2a79c1a3a6ab2b788e99b6553e792fe158ca249"
+    },
+    {
+      "path": "examples/assets/content-design/dubbed.mp4",
+      "bytes": 5292774,
+      "sha256": "0519b0b18ce1732f0807a255e519e9ba1616ef58382ddbe680fa562dcec6495f"
+    },
+    {
+      "path": "examples/assets/content-design/poster.jpg",
+      "bytes": 56218,
+      "sha256": "37b529d1d7f66446c55b3428c58b7f9cd962dd4d1674b5d30613411f55d9adc9"
+    },
+    {
+      "path": "examples/assets/content-design/preview.gif",
+      "bytes": 1025118,
+      "sha256": "5545d47382c68d61fa5914aaf6a9e4a0826251d09013da56912605bd9b473926"
+    },
+    {
+      "path": "examples/assets/design-system/dubbed.mp4",
+      "bytes": 3988561,
+      "sha256": "93ea9d342504e5b8f5c27bc1f25b8a7b569be10aefe5cf95a7170f2609b5b4af"
+    },
+    {
+      "path": "examples/assets/design-system/poster.jpg",
+      "bytes": 77924,
+      "sha256": "78228ee6b32a15e0ae70efaf337bb1271bddaf7ebfbdb8ea476168c0582578c0"
+    },
+    {
+      "path": "examples/assets/design-system/preview.gif",
+      "bytes": 1277886,
+      "sha256": "268f192305e22688a2c2905c3174d45ca6f63ee679b12d3bd22461fbdde7f7c1"
+    },
+    {
+      "path": "examples/assets/developer-keynote/dubbed.mp4",
+      "bytes": 4313484,
+      "sha256": "0e2e09aacf8e88b7a9a0949496a82e20294521fb848bba36ba4f4dfd5e3e67e4"
+    },
+    {
+      "path": "examples/assets/developer-keynote/poster.jpg",
+      "bytes": 206356,
+      "sha256": "03d2baf60813d339d395283f5f6c1e165e6e68d237099861bb05728958b9aa77"
+    },
+    {
+      "path": "examples/assets/developer-keynote/preview.gif",
+      "bytes": 1258880,
+      "sha256": "4c994637544eeb8def23e815dcf410d20e62f2c3308b50830efeed8c7e443eab"
+    },
+    {
+      "path": "examples/assets/pm-workflow/dubbed.mp4",
+      "bytes": 2179430,
+      "sha256": "3b5985a01caf09d29eb9b78cd032300eb12ae0dc3c3e9fde0b37aa3f72c9c7a9"
+    },
+    {
+      "path": "examples/assets/pm-workflow/poster.jpg",
+      "bytes": 124725,
+      "sha256": "052c5cfa3f89559c63dc8488eb3aef0cfdc12b4f3e261446ba12feb5b8ff70fa"
+    },
+    {
+      "path": "examples/assets/pm-workflow/preview.gif",
+      "bytes": 533132,
+      "sha256": "c8d0cef7957b00bf433529db325a69912705c57dedc43e30371ec0851bf1c3e5"
+    },
+    {
+      "path": "examples/assets/software-craft/dubbed.mp4",
+      "bytes": 2875700,
+      "sha256": "fa59c46c72ef183e7d8c78c289d98dd54af785f83522ac034c75b6eb32cfae8d"
+    },
+    {
+      "path": "examples/assets/software-craft/poster.jpg",
+      "bytes": 53250,
+      "sha256": "373a4b286dd4bc605d012bcab0020d184de286367b662e711d06cb02da8e65be"
+    },
+    {
+      "path": "examples/assets/software-craft/preview.gif",
+      "bytes": 876698,
+      "sha256": "994ffcf480696111bd3f56e7770a47ac0341ea419d6f34d69d4761224b1f867d"
+    },
+    {
+      "path": "examples/showcase.json",
+      "bytes": 8132,
+      "sha256": "31ee784d06dc7f2307d55ac8ac85d3f0ac24daffa4d2e5b6d367cc32dca242d8"
     },
     {
       "path": "models.json",

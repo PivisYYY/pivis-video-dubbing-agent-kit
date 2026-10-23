@@ -4,7 +4,7 @@
 
 ## 分发范围与核对方法
 
-本仓库只分发源码、文档和第三方许可文本，不捆绑 Python 依赖源码、wheel、二进制、模型权重或媒体。依赖由使用者另外安装。下表来自实际 Apple Silicon / Python 3.11 环境及版本约束文件；机器可读记录与逐文件哈希见 [third_party/inventory.json](third_party/inventory.json)。许可原文按原样保留在 [third_party/licenses](third_party/licenses/)。
+源码主包只分发源码、文档和第三方许可文本，不捆绑 Python 依赖源码、wheel、二进制、模型权重或媒体。当前私有库的 [演示媒体](examples/README.md) 属独立附加内容，受 [单独边界](examples/LICENSE.md) 约束；这些媒体不使用本项目 MIT 许可，也不授予公开再分发权利。依赖由使用者另外安装。下表来自实际 Apple Silicon / Python 3.11 环境及版本约束文件；机器可读记录与逐文件哈希见 [third_party/inventory.json](third_party/inventory.json)。许可原文按原样保留在 [third_party/licenses](third_party/licenses/)。
 
 许可表达式优先采用已安装发行版的 PEP 639 元数据；旧元数据以实际许可文件补充。模型卡、外部程序构建选项和素材授权仍需单独检查。此清单不是全平台锁文件、安全审计或法律意见，也不能保证所有依赖内部的每个二进制或原生子库均已逐一审计。
 

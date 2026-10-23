@@ -6,6 +6,24 @@
 
 > 当前为 Apple Silicon Mac 单说话人路线的可运行预览版。语音使用 MLX，文本翻译可用 Ollama 或授权的兼容接口。真实验收边界见 VALIDATION.md。不承诺全平台、一键零审批、自动多说话人或所有视频自动达到交付质量。
 
+## 原片与中文译配对照
+
+先看真实效果：下列 **5 组**来自此前完成的历史管线，左侧打开官方原片，右侧动图预览画面并链接到中文 MP4。原片链接从对应时间附近开始；不重新上传整部原片。
+
+**这些是历史作品展示，不是由本仓库新版 CLI 批量生成的验收案例。** 历史字幕样式可能为单语或独立时间轨；新版 CLI 的真实运行范围仍以 [VALIDATION.md](VALIDATION.md) 为准。
+
+| 内容 | 原片 · 官方发布 | 中文译配 · 历史真实片段 |
+|---|---|---|
+| **ChatPRD · 新时代的产品经理**<br>历史中英字幕 | [<img src="https://i.ytimg.com/vi/4CAFK-rc26A/hqdefault.jpg" width="360" alt="官方原片封面">](https://www.youtube.com/watch?v=4CAFK-rc26A&t=75s)<br>[观看原片 · Cursor](https://www.youtube.com/watch?v=4CAFK-rc26A&t=75s) | [<img src="examples/assets/pm-workflow/preview.gif" width="360" alt="真实中文译配片段动图">](examples/assets/pm-workflow/dubbed.mp4?raw=true)<br>[查看／下载中文 MP4 · 约 38 秒](examples/assets/pm-workflow/dubbed.mp4?raw=true) |
+| **Anthropic · AI 时代的内容设计**<br>历史中文字幕 | [<img src="https://i.ytimg.com/vi/l5VRhrNeidY/hqdefault.jpg" width="360" alt="官方原片封面">](https://www.youtube.com/watch?v=l5VRhrNeidY&t=13s)<br>[观看原片 · Figma](https://www.youtube.com/watch?v=l5VRhrNeidY&t=13s) | [<img src="examples/assets/content-design/preview.gif" width="360" alt="真实中文译配片段动图">](examples/assets/content-design/dubbed.mp4?raw=true)<br>[查看／下载中文 MP4 · 约 55 秒](examples/assets/content-design/dubbed.mp4?raw=true) |
+| **Notion · 设计系统**<br>历史中英字幕 | [<img src="https://i.ytimg.com/vi/u7_Qof3AJ1g/hqdefault.jpg" width="360" alt="官方原片封面">](https://www.youtube.com/watch?v=u7_Qof3AJ1g&t=30s)<br>[观看原片 · Figma](https://www.youtube.com/watch?v=u7_Qof3AJ1g&t=30s) | [<img src="examples/assets/design-system/preview.gif" width="360" alt="真实中文译配片段动图">](examples/assets/design-system/dubbed.mp4?raw=true)<br>[查看／下载中文 MP4 · 约 45 秒](examples/assets/design-system/dubbed.mp4?raw=true) |
+| **Cursor · Closer to the Material**<br>历史中英字幕 | [<img src="https://i.ytimg.com/vi/az6OEZV8iHw/hqdefault.jpg" width="360" alt="官方原片封面">](https://www.youtube.com/watch?v=az6OEZV8iHw&t=15s)<br>[观看原片 · Cursor](https://www.youtube.com/watch?v=az6OEZV8iHw&t=15s) | [<img src="examples/assets/software-craft/preview.gif" width="360" alt="真实中文译配片段动图">](examples/assets/software-craft/dubbed.mp4?raw=true)<br>[查看／下载中文 MP4 · 约 45 秒](examples/assets/software-craft/dubbed.mp4?raw=true) |
+| **OpenAI · 开发者主题演讲**<br>历史中英字幕 | [<img src="https://i.ytimg.com/vi/Fls_onRviPM/hqdefault.jpg" width="360" alt="官方原片封面">](https://www.youtube.com/watch?v=Fls_onRviPM&t=30s)<br>[观看原片 · OpenAI](https://www.youtube.com/watch?v=Fls_onRviPM&t=30s) | [<img src="examples/assets/developer-keynote/preview.gif" width="360" alt="真实中文译配片段动图">](examples/assets/developer-keynote/dubbed.mp4?raw=true)<br>[查看／下载中文 MP4 · 约 45 秒](examples/assets/developer-keynote/dubbed.mp4?raw=true) |
+
+[查看全部来源与片段说明](examples/README.md) · [演示媒体权利边界](examples/LICENSE.md)
+
+目前仅用于私有预览，视频、声音和截图不按源码 MIT 授权；公开前须单独复核。动图为无声画面预览；要听配音，请点中文 MP4，若 GitHub 未直接播放，可下载后观看。
+
 ## 给你的 Agent 这句话
 
 > 阅读仓库根目录 AGENTS.md、README.md、models.json。按我的电脑配置检查和准备环境、选择兼容的本地文本模型，在我授权后安装依赖及下载模型。先为我提供的视频做完整中文译配短样片；机器检查后交给我试听确认，再跑全片。遇到问题定位后局部修复、断点续跑，不放宽质量门禁，不上传我的任何资料。
@@ -111,7 +129,7 @@ python -m dubkit run \
 
 默认只允许本机请求。远程 HTTPS 服务需显式 `--allow-remote-llm`，并了解转录会发送给该服务及可能费用。凭证只从使用者自己的 `DUBKIT_API_KEY` 环境变量读取，不写代码、状态或命令参数。项目不会自动读取 Agent 的登录信息或配置。根目录 `.env.example` 仅为无真实凭证的配置参考，程序不会自动加载 `.env`；请在自己的安全环境中配置，不要提交真实值。
 
-项目不含私人音色、原片、成片、模型权重、账号、密钥或运行日志。可授权分享的音色与产出应作为独立可选素材包逐项审核。详见 [隐私边界](docs/PRIVACY.md)、[支持范围](docs/SUPPORT.md)、[模型来源](docs/MODELS.md)。
+源码主包不含私人参考音色、原片、完整成片、模型权重、账号、密钥或运行日志。当前私有预览仓库另含 [examples](examples/README.md) 中明确挑选的历史译配短片、动图和截图，不属于源码 MIT 授权范围；公开前必须逐项复核素材与声音权利，并另获确认。详见 [隐私边界](docs/PRIVACY.md)、[支持范围](docs/SUPPORT.md)、[模型来源](docs/MODELS.md)。
 
 ## 测试与许可
 
@@ -123,7 +141,7 @@ python -B -m unittest discover -s tests -v
 
 本项目自有源码和文档采用 [MIT](LICENSE)，允许在保留版权与许可声明的前提下使用、修改、商用和再分发；软件按原样提供，不作质量保证。
 
-**MIT 不统一覆盖第三方依赖、模型、音色或媒体。** 特别注意：固定 Whisper 转换模型的模型卡未显式声明许可；FFmpeg 启用 libx264 等 GPL 组件后的构建也不能描述为纯 LGPL。项目不捆绑二进制依赖、模型权重、参考音色或媒体。
+**MIT 不统一覆盖第三方依赖、模型、音色或媒体。** 特别注意：固定 Whisper 转换模型的模型卡未显式声明许可；FFmpeg 启用 libx264 等 GPL 组件后的构建也不能描述为纯 LGPL。项目不捆绑二进制依赖、模型权重或参考音色；私有演示媒体遵守 [独立边界](examples/LICENSE.md)，不授予 MIT 媒体许可。
 
 ## 致谢与相关工作
 
@@ -131,4 +149,4 @@ python -B -m unittest discover -s tests -v
 
 特别感谢 **[OpenCreator（原 KrillinAI）](https://github.com/krillinai/OpenCreator)** 的开源视频翻译与创作工作流；它在这里作为相关工作致谢，本 CLI 不内嵌或调用其应用。**Hermes Agent、Codex** 等可作为可选操作端，不是内嵌运行时，也不表示官方关联。
 
-完整项目链接与分工见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。52 项 Python 依赖的固定版本、许可摘要及保留的原文见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与 [third_party/inventory.json](third_party/inventory.json)。本次只准备源码分发；未来若打包应用、依赖二进制或模型／媒体，必须重新核对实际再分发义务。
+完整项目链接与分工见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。52 项 Python 依赖的固定版本、许可摘要及保留的原文见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与 [third_party/inventory.json](third_party/inventory.json)。源码分发与私有演示分开；当前演示媒体未经统一公开传播授权。未来若打包应用、依赖二进制或模型／媒体，必须重新核对实际再分发义务。
