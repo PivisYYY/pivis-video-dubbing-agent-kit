@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "distribution": "private preview with explicitly selected historical media",
+  "distribution": "public source preview with separately scoped historical demonstration media",
   "contains_model_weights": false,
   "contains_media": true,
-  "media_scope": "examples/assets only; not MIT licensed; public release requires separate confirmation and rights review",
+  "media_scope": "examples/assets only; media and voices are not MIT licensed; third-party reuse rights are not granted by public repository access",
   "files": [
     {
       "path": ".env.example",
@@ -17,8 +17,8 @@
     },
     {
       "path": "ACKNOWLEDGEMENTS.md",
-      "bytes": 4990,
-      "sha256": "de83d1bdef8a461e334baa5ae8f0f598e22fc6171e7ed0561870ac6c94d477c4"
+      "bytes": 5017,
+      "sha256": "c45b6907841ed474e60438fee1c99aab09e021bbedad588030a65b763e7ab296"
     },
     {
       "path": "AGENTS.md",
@@ -32,18 +32,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 13071,
-      "sha256": "6f77e5cf5de7f203d083529f7bae19d3f6c5f5860108c69dfd48fd9005f990b6"
+      "bytes": 13221,
+      "sha256": "d8aa703d369a12cf57be2f36b3b77d6dcde7f7fcae77fc1bdc951bbd7d7e1054"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 26447,
-      "sha256": "81add39f275dd1b5d5e63e5af63f3afff38852c652c233b236b16d4ec5538ee4"
+      "bytes": 26438,
+      "sha256": "dda298bd128f135cf2429a152b2a24f75e2be5ffb0901537532ed94725b8b34f"
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 4969,
-      "sha256": "ad9634cad3b86aeba71aef2b3e3a684cd938f4f90f0826831e952d57995e28d5"
+      "bytes": 5508,
+      "sha256": "945a746261771457144ef83219742f7c9dcffddb55a019147e929f73bb5db6e5"
     },
     {
       "path": "bootstrap.sh",
@@ -57,8 +57,8 @@
     },
     {
       "path": "docs/PRIVACY.md",
-      "bytes": 2673,
-      "sha256": "0fe7e3c8fb07cb3d7a24218c26cf6ab2ab8d81be74d7448d2a3eb53f8af206b1"
+      "bytes": 2811,
+      "sha256": "353335e81f12a89e9a2331227025975142d8481e26aa78625c2a09c50f8c7cfa"
     },
     {
       "path": "docs/SUPPORT.md",
@@ -117,13 +117,13 @@
     },
     {
       "path": "examples/LICENSE.md",
-      "bytes": 1609,
-      "sha256": "196e5052c3f5d2d6eeb217ef428674181094706fd5a61cbea3935ff129434a10"
+      "bytes": 1806,
+      "sha256": "1bbf048eaa33791a43380848616df9c99b76c0a0f764fe4e19cbe75794afb417"
     },
     {
       "path": "examples/README.md",
-      "bytes": 7088,
-      "sha256": "1d10b316d3635410669bfd4ea2a79c1a3a6ab2b788e99b6553e792fe158ca249"
+      "bytes": 7197,
+      "sha256": "ab43dcf6e0ece79d37d2a9f4b935579805db5e82947bfe986298eecae6bb2904"
     },
     {
       "path": "examples/assets/content-design/dubbed.mp4",
@@ -202,8 +202,8 @@
     },
     {
       "path": "examples/showcase.json",
-      "bytes": 8132,
-      "sha256": "31ee784d06dc7f2307d55ac8ac85d3f0ac24daffa4d2e5b6d367cc32dca242d8"
+      "bytes": 8931,
+      "sha256": "5ab69bb95ab3b1e1740aa3e2424c782079323f57042e0fb3703006df7d4b1937"
     },
     {
       "path": "models.json",
@@ -212,8 +212,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 562,
-      "sha256": "057ea7e3b2e643f61058f96062fe54060b7af297d04bc993148df875981a0b8e"
+      "bytes": 568,
+      "sha256": "75929056dc3a0a020fc85afa4b3d3752d5b9b7146096e9f9c175971660b2d464"
     },
     {
       "path": "requirements-macos-arm64.lock.txt",
