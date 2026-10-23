@@ -1,0 +1,1931 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-23",
+  "python_distribution_count": 52,
+  "scope": "Apple Silicon Python 3.11 constraint snapshot; locally installed metadata and license texts. No dependencies, wheels, binaries or weights are bundled.",
+  "not_legal_advice": true,
+  "python_distributions": [
+    {
+      "name": "annotated-doc",
+      "version": "0.0.5",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/fastapi/annotated-doc",
+      "package_index": "https://pypi.org/project/annotated-doc/0.0.5/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/annotated-doc/ee27fe4541b5-LICENSE",
+          "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+          "bytes": 1086,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://pypi.org/project/anyio/",
+      "package_index": "https://pypi.org/project/anyio/4.15.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/anyio/320fb46da982-LICENSE",
+          "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+          "bytes": 1081,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.19",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MPL-2.0",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/certifi/python-certifi",
+      "package_index": "https://pypi.org/project/certifi/2026.10.19/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/certifi/0cd71870fc1b-LICENSE",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+          "bytes": 989,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT-0",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://pypi.org/project/cffi/",
+      "package_index": "https://pypi.org/project/cffi/2.1.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/cffi/2e2d841f3829-LICENSE",
+          "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63",
+          "bytes": 1123,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://pypi.org/project/charset-normalizer/",
+      "package_index": "https://pypi.org/project/charset-normalizer/3.5.2/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/charset-normalizer/37deb5416295-LICENSE",
+          "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887",
+          "bytes": 1071,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/pallets/click/",
+      "package_index": "https://pypi.org/project/click/8.5.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/click/1c294ee0ed0f-LICENSE.txt",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.4",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/tox-dev/py-filelock",
+      "package_index": "https://pypi.org/project/filelock/4.2.4/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/filelock/a4f72886bd76-LICENSE",
+          "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48",
+          "bytes": 1088,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/fsspec/filesystem_spec",
+      "package_index": "https://pypi.org/project/fsspec/2026.9.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/fsspec/44ac41031103-LICENSE",
+          "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+          "bytes": 1513,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/python-hyper/h11",
+      "package_index": "https://pypi.org/project/h11/0.16.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/h11/39d084ff20ff-LICENSE.txt",
+          "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+          "bytes": 1124,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.7.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "Apache-2.0",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/huggingface/xet-core.git",
+      "package_index": "https://pypi.org/project/hf-xet/1.7.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/hf-xet/9f26db9edf15-LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/encode/httpcore",
+      "package_index": "https://pypi.org/project/httpcore/1.0.9/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/httpcore/b6618d8dc766-LICENSE.md",
+          "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
+          "bytes": 1518,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/encode/httpx",
+      "package_index": "https://pypi.org/project/httpx/0.28.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/httpx/1a79882f84c4-LICENSE.md",
+          "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+          "bytes": 1508,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "1.33.0",
+      "relationship": "direct integration",
+      "license": "Apache-2.0",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/huggingface/huggingface_hub",
+      "package_index": "https://pypi.org/project/huggingface_hub/1.33.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/huggingface-hub/67a8d0a92ba1-LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/kjd/idna",
+      "package_index": "https://pypi.org/project/idna/3.20/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/idna/d91c8e1dcc4f-LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+          "bytes": 1541,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/pallets/jinja/",
+      "package_index": "https://pypi.org/project/Jinja2/3.1.6/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/jinja2/b0ec1e6164c9-LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "llvmlite",
+      "version": "0.50.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-2-Clause AND Apache-2.0 WITH LLVM-exception",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/numba/llvmlite",
+      "package_index": "https://pypi.org/project/llvmlite/0.50.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/llvmlite/e7a721642ed5-LICENSE",
+          "sha256": "5d0772f4dc4cb16e6bee2419bfa57c0a129808400e341b87fd9f87cbe6a5963d",
+          "bytes": 1285,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/llvmlite/3c0b29f4e9c9-LICENSE.thirdparty",
+          "sha256": "dc527293cfc2e4b4d59042e0b204667162845d8548651932f5a9d2f4adfc928b",
+          "bytes": 12561,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/executablebooks/markdown-it-py",
+      "package_index": "https://pypi.org/project/markdown-it-py/4.2.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/markdown-it-py/d0465fdc9e24-LICENSE",
+          "sha256": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+          "bytes": 1078,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/markdown-it-py/b883c1f02568-LICENSE.markdown-it",
+          "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
+          "bytes": 1073,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.4",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/pallets/markupsafe/",
+      "package_index": "https://pypi.org/project/MarkupSafe/3.0.4/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/markupsafe/edf850161d51-LICENSE.txt",
+          "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/executablebooks/mdurl",
+      "package_index": "https://pypi.org/project/mdurl/0.1.2/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/mdurl/95bd6addf305-LICENSE",
+          "sha256": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+          "bytes": 2338,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "miniaudio",
+      "version": "1.71",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/irmen/pyminiaudio",
+      "package_index": "https://pypi.org/project/miniaudio/1.71/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/miniaudio/2ede0d6af131-LICENSE",
+          "sha256": "3e793d703da08a12a501ff6e7d5767d0af9adaa423154755300af2fcdbab7677",
+          "bytes": 1166,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "mlx-audio",
+      "version": "0.5.1",
+      "relationship": "direct integration",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/Blaizzy/mlx-audio",
+      "package_index": "https://pypi.org/project/mlx-audio/0.5.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/mlx-audio/3f38285f20fb-LICENSE",
+          "sha256": "11d27e0259dec3a323fa6c04c330621d0950ab96c6760d5aac3e2e97229e6f22",
+          "bytes": 1070,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "mlx-metal",
+      "version": "0.32.4",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/ml-explore/mlx",
+      "package_index": "https://pypi.org/project/mlx-metal/0.32.4/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/mlx-metal/4b78c5bea082-LICENSE.txt",
+          "sha256": "f4e92c7fe2aa066e294c0da9d08683dc9fb741ee6e6debbfad99a0c96e07c1f2",
+          "bytes": 11344,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/mlx-metal/3195264a046f-LICENSE",
+          "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01",
+          "bytes": 1066,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "mlx-whisper",
+      "version": "0.4.3",
+      "relationship": "direct integration",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text; official upstream snapshot supplied because the installed wheel has no license file",
+      "upstream": "https://github.com/ml-explore/mlx-examples",
+      "package_index": "https://pypi.org/project/mlx-whisper/0.4.3/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/upstream/mlx-whisper-LICENSE",
+          "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01",
+          "bytes": 1066
+        }
+      ]
+    },
+    {
+      "name": "mlx",
+      "version": "0.32.4",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/ml-explore/mlx",
+      "package_index": "https://pypi.org/project/mlx/0.32.4/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/mlx/6f025f655d32-LICENSE",
+          "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01",
+          "bytes": 1066,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "more-itertools",
+      "version": "11.2.1",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/more-itertools/more-itertools",
+      "package_index": "https://pypi.org/project/more-itertools/11.2.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/more-itertools/f7c7748f4a23-LICENSE",
+          "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+          "bytes": 1053,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/fredrik-johansson/mpmath",
+      "package_index": "https://pypi.org/project/mpmath/1.3.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/mpmath/21b64ce33aa4-LICENSE",
+          "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7",
+          "bytes": 1537,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://networkx.org/",
+      "package_index": "https://pypi.org/project/networkx/3.6.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/networkx/b3db7af01e46-LICENSE.txt",
+          "sha256": "3cf7c3a179d817b23b8b8568211769fefdf93797d207d984b8b2fa24d0220b33",
+          "bytes": 1763,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "numba",
+      "version": "0.68.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-2-Clause",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://numba.pydata.org",
+      "package_index": "https://pypi.org/project/numba/0.68.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/numba/b5656570f797-LICENSE",
+          "sha256": "3a70e0a21cad03147246f6363d07bf76fae216c72779707f4ae5db06bcacf067",
+          "bytes": 1286,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numba/0256ff72cd45-LICENSES.third-party",
+          "sha256": "fdc60ca21d827beb3835ffc6b7a99bda14a5cfcb379d0c82c05e3c1ff4a482f2",
+          "bytes": 26322,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "relationship": "direct integration",
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/numpy/numpy",
+      "package_index": "https://pypi.org/project/numpy/2.4.6/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/numpy/e47ed32db422-LICENSE.txt",
+          "sha256": "649a589ab31076e79e9ce62ba24eae9959598124176640dbc95f87bd10f34fcf",
+          "bytes": 46826,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/e7b67030b26a-LICENSE.txt",
+          "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+          "bytes": 1018,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/3a2b2e4214c0-COPYING",
+          "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+          "bytes": 690,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/cb9c58803d9a-LICENSE",
+          "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+          "bytes": 20785,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/01122824128e-LICENSE.md",
+          "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+          "bytes": 1514,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/ec89014620ec-LICENSE",
+          "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+          "bytes": 1543,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/51fd74ba225d-LICENSE.md",
+          "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+          "bytes": 1498,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/ca7c4d53715a-LICENSE.txt",
+          "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+          "bytes": 2266,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/f62aae2cb870-LICENSE",
+          "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+          "bytes": 1593,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/91b89395bf41-LICENSE.md",
+          "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+          "bytes": 3511,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/a14f45e480cd-LICENSE.md",
+          "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+          "bytes": 2745,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/00d7d4f45d24-LICENSE.md",
+          "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+          "bytes": 2926,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/6b0abf2def68-LICENSE.md",
+          "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+          "bytes": 1154,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/2e4c2ea967a6-LICENSE.md",
+          "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+          "bytes": 1509,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/eef0fad7f652-LICENSE.md",
+          "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+          "bytes": 1226,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/da1edaafdc85-LICENSE.md",
+          "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+          "bytes": 332,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/0f4ffb2948b1-LICENSE.txt",
+          "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+          "bytes": 1018,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/ddfcf34665e2-LICENSE",
+          "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+          "bytes": 1593,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/numpy/c21c93791add-LICENSE.md",
+          "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+          "bytes": 3511,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "relationship": "resolved transitive or build dependency",
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/pypa/packaging",
+      "package_index": "https://pypi.org/project/packaging/26.3/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/packaging/11c854e2fea5-LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "bytes": 197,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/packaging/e9a5bac8b5a0-LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/packaging/ef96a0844cda-LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "bytes": 1344,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "pycparser",
+      "version": "3.11",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/eliben/pycparser",
+      "package_index": "https://pypi.org/project/pycparser/3.11/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/pycparser/be2a90351fed-LICENSE",
+          "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90",
+          "bytes": 1543,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-2-Clause",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/pygments/pygments",
+      "package_index": "https://pypi.org/project/Pygments/2.21.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/pygments/62c35449c976-LICENSE",
+          "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+          "bytes": 1331,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://pyyaml.org/",
+      "package_index": "https://pypi.org/project/PyYAML/6.0.3/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/pyyaml/1f5c94674bb0-LICENSE",
+          "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+          "bytes": 1101,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29",
+      "relationship": "resolved transitive or build dependency",
+      "license": "Apache-2.0 AND CNRI-Python",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/mrabarnett/mrab-regex",
+      "package_index": "https://pypi.org/project/regex/2026.9.29/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/regex/0fb05a2e9284-LICENSE.txt",
+          "sha256": "bff55ef4cdcc8c14ce259f8e8ab60e264418440d6335f4dc138273fbd506144d",
+          "bytes": 11584,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "relationship": "resolved transitive or build dependency",
+      "license": "Apache-2.0",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/psf/requests",
+      "package_index": "https://pypi.org/project/requests/2.34.2/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/requests/fb0b720c70d8-LICENSE",
+          "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+          "bytes": 10142,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/requests/bd7b91afd66e-NOTICE",
+          "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+          "bytes": 38,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/Textualize/rich",
+      "package_index": "https://pypi.org/project/rich/15.0.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/rich/bb9c3b1eeeac-LICENSE",
+          "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+          "bytes": 1056,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "Apache-2.0",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/huggingface/safetensors",
+      "package_index": "https://pypi.org/project/safetensors/0.8.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/safetensors/07c67dcb9a0a-LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "scipy",
+      "version": "1.17.1",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause (plus bundled third-party notices)",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/scipy/scipy",
+      "package_index": "https://pypi.org/project/scipy/1.17.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/scipy/cee9cfc4cc18-LICENSE.txt",
+          "sha256": "60a7d05d729ed5c763852a324a1cb4223d665d4ad3f4b8a0c130ae5c60c93e49",
+          "bytes": 46841,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/scipy/125435138211-LICENSE",
+          "sha256": "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4",
+          "bytes": 1514,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/scipy/260d69ad5662-LICENSE.md",
+          "sha256": "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789",
+          "bytes": 1498,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/scipy/a443b9ad7f46-LICENSE_DOP",
+          "sha256": "ed9bf58c6d74d3fad9d92d1d67d9bff8141d8ab60de784516b0711364fd43357",
+          "bytes": 3572,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/scipy/8989e278a27f-COPYING_QHULL.txt",
+          "sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d",
+          "bytes": 1720,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/pypa/setuptools",
+      "package_index": "https://pypi.org/project/setuptools/84.2.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/setuptools/3f5389a9a348-LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "bytes": 1023,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/b8b1f5f03784-LICENSE",
+          "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+          "bytes": 7634,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/c9e41e71fb67-LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "bytes": 1023,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/4a7fd6a9c689-LICENSE",
+          "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+          "bytes": 10278,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/9fe05a3195b3-LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "bytes": 1023,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/4d09286af1bf-LICENSE",
+          "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+          "bytes": 1076,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/63a92caf8157-LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+          "bytes": 1076,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/6562dd76db57-LICENSE",
+          "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+          "bytes": 1053,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/7d04faf71389-LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "bytes": 197,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/4b9e307b194c-LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/f7570c58528a-LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "bytes": 1344,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/d6b8bc455754-LICENSE",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+          "bytes": 1089,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/1ab641e9121b-LICENSE",
+          "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+          "bytes": 1072,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/8b28658c9e81-LICENSE.txt",
+          "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+          "bytes": 1107,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/0e45092c306c-LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+          "bytes": 1076,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/4094fd3590b5-NOTICE",
+          "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+          "bytes": 493,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/setuptools/e972ee51f8cb-NOTICE",
+          "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+          "bytes": 18737,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "shellingham",
+      "version": "1.5.4",
+      "relationship": "resolved transitive or build dependency",
+      "license": "ISC",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/sarugaku/shellingham",
+      "package_index": "https://pypi.org/project/shellingham/1.5.4/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/shellingham/e5daa4cc3ae8-LICENSE",
+          "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+          "bytes": 751,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "sounddevice",
+      "version": "0.5.6",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/spatialaudio/python-sounddevice/",
+      "package_index": "https://pypi.org/project/sounddevice/0.5.6/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/sounddevice/33389ef9437b-LICENSE",
+          "sha256": "b6eea21bbafbaf7a2177e492f1be6b5efc6f4e708b1980773de51cdaa52f8211",
+          "bytes": 1063,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "soundfile",
+      "version": "0.13.1",
+      "relationship": "direct integration",
+      "license": "BSD-3-Clause (Python wrapper; libsndfile is separate LGPL)",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/bastibe/python-soundfile",
+      "package_index": "https://pypi.org/project/soundfile/0.13.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/soundfile/4b65dbd72ad2-COPYING",
+          "sha256": "ad01ea5cd2755f6048383c8d54c88459cd6fcb17757c5c8892f8c5ea060f6140",
+          "bytes": 26518,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/soundfile/f1fe4ca19ca5-LICENSE",
+          "sha256": "0dd2e411fed553ba891845077e5a32c5b726d1bbc46ff31a2118ae1ccf816752",
+          "bytes": 1512,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "BSD-3-Clause",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/sympy/sympy",
+      "package_index": "https://pypi.org/project/sympy/1.14.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/sympy/767eeaf795db-LICENSE",
+          "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286",
+          "bytes": 7885,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/sympy/94e2a313c218-LICENSE.txt",
+          "sha256": "007bc30a58fa40a996e772047120de4eaf31f5110e4f9c3b5f93fcdfbe2eaca1",
+          "bytes": 1075,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "tiktoken",
+      "version": "0.14.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/openai/tiktoken",
+      "package_index": "https://pypi.org/project/tiktoken/0.14.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/tiktoken/cbeb5a271bd9-LICENSE",
+          "sha256": "418cb499b436128d653d79941333a5437b7be2ea9213dcc2f04d15d5d2c51d86",
+          "bytes": 1078,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.3",
+      "relationship": "resolved transitive or build dependency",
+      "license": "Apache-2.0",
+      "license_evidence": "installed package license metadata and/or verbatim notice text; official upstream snapshot supplied because the installed wheel has no license file",
+      "upstream": "https://github.com/huggingface/tokenizers",
+      "package_index": "https://pypi.org/project/tokenizers/0.23.3/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/upstream/tokenizers-LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ]
+    },
+    {
+      "name": "torch",
+      "version": "2.14.1",
+      "relationship": "resolved transitive or build dependency",
+      "license": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/pytorch/pytorch",
+      "package_index": "https://pypi.org/project/torch/2.14.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/torch/2f776f7adceb-LICENSE",
+          "sha256": "bd018feef8825e88181c84eb7e3aa4eafb8f08a20d9fd6ef948569610c4a3e43",
+          "bytes": 3464,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/b6e151aadf92-LICENSE",
+          "sha256": "17e4f539024be2749ee729d1e2f01d24cef12ece8c9bf18e91a4349be29c80bf",
+          "bytes": 1157,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/16375db1dab3-LICENSE",
+          "sha256": "7cac00006125b1486a27e4801ed66357236e984c540bd323945ab7b66b078ec3",
+          "bytes": 1117,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/41cf0db1b25c-LICENSE",
+          "sha256": "ab09e33621f513ebdd1ef685b324f39c1f6bee9221d15600bafd958322df1231",
+          "bytes": 1352,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/0954a0748028-LICENSE.txt",
+          "sha256": "abdfd8a6738b27cd1504e091f77b682dbae928339f040b8a6f59a548245991a0",
+          "bytes": 12483,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/ad3c66314b85-LICENSE.txt",
+          "sha256": "abdfd8a6738b27cd1504e091f77b682dbae928339f040b8a6f59a548245991a0",
+          "bytes": 12483,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/97fcbf178526-LICENSE.txt",
+          "sha256": "abdfd8a6738b27cd1504e091f77b682dbae928339f040b8a6f59a548245991a0",
+          "bytes": 12483,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/1d98dc99f082-LICENSE",
+          "sha256": "e165ed77854f47fb208850d23d935a9f0ab8bb4527381466beeb16025e2f6e9e",
+          "bytes": 12449,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/29d08f877e87-LICENSE",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+          "bytes": 1117,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/28c964cc0e5d-LICENSE.txt",
+          "sha256": "8d70e4cf2a9941f6454da71cd60e38484dd3e34810c824760d550e982af6d97a",
+          "bytes": 1099,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/8088e86a3c1d-LICENSE",
+          "sha256": "63f519e15726f4c4f830bd958f694c84fecb4e0a4cacc527d2696bb71ef95ada",
+          "bytes": 1560,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/179f39accd31-LICENSE",
+          "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+          "bytes": 1726,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/637e1a771d8d-LICENSE.rst",
+          "sha256": "527eec8a9670f793119a685a3510369e5fd64b45515a885c7226641777ecff8b",
+          "bytes": 330,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/b7db36882977-LICENSE",
+          "sha256": "0baca809927cad448401b252ce3bae12687c2987597ad7088cf3423f872d5bcd",
+          "bytes": 1100,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/da94a873e121-LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/224f4638d483-LICENSE",
+          "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+          "bytes": 1726,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/40690e02f126-LICENSE.rst",
+          "sha256": "527eec8a9670f793119a685a3510369e5fd64b45515a885c7226641777ecff8b",
+          "bytes": 330,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/612d6b91b370-LICENSE",
+          "sha256": "4b45cbe16d7b71b89ae6127e26e0d90a029198ca5e958ad8e3d0b8bbed364d8b",
+          "bytes": 1075,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/eb0b40a2091d-LICENSE",
+          "sha256": "8e7e60636c3aa0cb03571a1a841ce5697f9551ff92b3c426c2561613d15ade70",
+          "bytes": 1424,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/c636712044ac-LICENSE",
+          "sha256": "68a14c3e79add023eecd83d611e73f05b8bf1d16852efeb7eb4033a96736da9e",
+          "bytes": 1384,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/13d1f0f7858a-LICENSE.txt",
+          "sha256": "3fc4b473a2c08768a8066bf7e4a58a1185060f3ad674f2ca9e2011bca4adf2ce",
+          "bytes": 1148,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/43ddf313024a-LICENSE.txt",
+          "sha256": "ad1513ca983da737a6843364ad19e8424a56d860736c2da773b8c5be527e1475",
+          "bytes": 1861,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/5fae0f1c8e03-LICENSE.txt",
+          "sha256": "00bf1806f664ac1afe4221f5f04b384fb6f1ca6eb33efcb6dccf599eb06d08b9",
+          "bytes": 1547,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/222a8fa8d89c-LICENSE",
+          "sha256": "12c2370ec32e78115dcd71ba22cdcb1297320fdc4ade81f798136d42357c58b8",
+          "bytes": 1535,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/a4737827718b-LICENSE",
+          "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+          "bytes": 1726,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/a0ba65ddf491-LICENSE.rst",
+          "sha256": "527eec8a9670f793119a685a3510369e5fd64b45515a885c7226641777ecff8b",
+          "bytes": 330,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/18a0d9554d60-LICENSE",
+          "sha256": "8e7e60636c3aa0cb03571a1a841ce5697f9551ff92b3c426c2561613d15ade70",
+          "bytes": 1424,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/8bbc55af3057-LICENSE",
+          "sha256": "68a14c3e79add023eecd83d611e73f05b8bf1d16852efeb7eb4033a96736da9e",
+          "bytes": 1384,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/beacebe45185-LICENSE.txt",
+          "sha256": "80a7a18b73d41f64dd9ca881af35938f8de88b18c728703251f4c94d1299884d",
+          "bytes": 1854,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/bca7aeacfbe6-LICENSE.txt",
+          "sha256": "42fec630f410aa308f70a51a89fadcd19586fa620f9831a32bee528a9a10000e",
+          "bytes": 1547,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/04b7416f8bc1-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/7cb892116f8a-LICENSE.txt",
+          "sha256": "ecf819d55b17c2f091b3ba0934d044368aa0680d8a81374860306aa2b91aa1eb",
+          "bytes": 1112,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/d0eb12bb3a91-LICENSE.rst",
+          "sha256": "28e8a7bea8e35cc341133847d66ca4b34e7156724e31e7fb62e37872d4259416",
+          "bytes": 148,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/86c57f4618a1-LICENSE",
+          "sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+          "bytes": 1558,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/61d0796db7d4-LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/15b9c0f6424f-LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "bytes": 1141,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/cf5498e7f74a-LICENSE",
+          "sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+          "bytes": 1558,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/4335bdcc65e6-LICENSE",
+          "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+          "bytes": 1726,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/2c4dbe524dbc-LICENSE.rst",
+          "sha256": "527eec8a9670f793119a685a3510369e5fd64b45515a885c7226641777ecff8b",
+          "bytes": 330,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/01d18e04da2d-LICENSE.txt",
+          "sha256": "80a7a18b73d41f64dd9ca881af35938f8de88b18c728703251f4c94d1299884d",
+          "bytes": 1854,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/f50ad503234f-LICENSE.txt",
+          "sha256": "42fec630f410aa308f70a51a89fadcd19586fa620f9831a32bee528a9a10000e",
+          "bytes": 1547,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/0c62f5007c59-LICENSE",
+          "sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+          "bytes": 1558,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/81ed12dc692f-LICENSE",
+          "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+          "bytes": 1726,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/ec7268de54bb-LICENSE.rst",
+          "sha256": "527eec8a9670f793119a685a3510369e5fd64b45515a885c7226641777ecff8b",
+          "bytes": 330,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/5d12d4fd04fa-LICENSE",
+          "sha256": "0baca809927cad448401b252ce3bae12687c2987597ad7088cf3423f872d5bcd",
+          "bytes": 1100,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/e8a155457d9d-LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/a5188eb3f3ac-LICENSE",
+          "sha256": "edd9b3459bee4c79b549a5ef66d06d12bd144ddb8d08e0b448fb421267f43dd5",
+          "bytes": 11341,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/65560cca14fb-LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/298c2182cd91-LICENSE",
+          "sha256": "a65fcc5a1095fc33cc37e4fff69366e49d7e92f613558a2b95ed1b70e33758b4",
+          "bytes": 1094,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/b6ecdb742b11-LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/1239c114b88c-LICENSE",
+          "sha256": "2afbc572cf7f60888159bc2ca48ba58f8adec06682ae5de820d61449d1eeea81",
+          "bytes": 1525,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/072ee40c5fb3-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/1467dd9c3685-LICENSE",
+          "sha256": "a26add03107a53a605a89711b9b7dbd4f5dd668ae193a912e01a879366a23b0e",
+          "bytes": 1062,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/96b262a5468c-LICENSE",
+          "sha256": "e9fc874fc09801b9acf3411ba72394098473704d832d713404b6c4861a086318",
+          "bytes": 11607,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/16643a32be38-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/c1a55fd25fc2-LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/47ded4aad382-LICENSE",
+          "sha256": "6f3d59b9103e72e5c977eecf61b261c2e1546a9be2995847e3ee2d31021fd39b",
+          "bytes": 1609,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/760c2846f922-LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/dd3ca591af84-LICENSE",
+          "sha256": "07580f2a3b35709ce703d523f447b242f6dfec7582a8c0df102c7fa2849375f8",
+          "bytes": 1431,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/1b747b0d6773-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/88b204608c25-LICENSE.txt",
+          "sha256": "68395143f21a9aa29b8232168c71892af5ec4f1ae2529571cd250a71c9e37a03",
+          "bytes": 17003,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/503975da3ef5-LICENSE",
+          "sha256": "82ade5d7d9b029044b5fbbc326207fc47c2d44ee4dd71e8a559c36d728217de9",
+          "bytes": 1096,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/16c58966159a-LICENSE",
+          "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3",
+          "bytes": 1184,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/42102867154c-LICENSE",
+          "sha256": "44519cbe722d7bf092cd7e0fa26558b9e3905b88fca4c0c278e2733a9f6b4cf9",
+          "bytes": 1533,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/b2227c67b998-LICENSE",
+          "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+          "bytes": 1726,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/e89d230d7d0a-LICENSE.rst",
+          "sha256": "527eec8a9670f793119a685a3510369e5fd64b45515a885c7226641777ecff8b",
+          "bytes": 330,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/1144bacf6e67-LICENSE.txt",
+          "sha256": "80a7a18b73d41f64dd9ca881af35938f8de88b18c728703251f4c94d1299884d",
+          "bytes": 1854,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/eb9f0dc08d1b-LICENSE.txt",
+          "sha256": "42fec630f410aa308f70a51a89fadcd19586fa620f9831a32bee528a9a10000e",
+          "bytes": 1547,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/dcd342b870b9-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/9aadc1c6d941-LICENSE.txt",
+          "sha256": "ecf819d55b17c2f091b3ba0934d044368aa0680d8a81374860306aa2b91aa1eb",
+          "bytes": 1112,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/48437f2d2829-LICENSE",
+          "sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+          "bytes": 1558,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/9d790de7d047-LICENSE.txt",
+          "sha256": "c1f53beabe4dbf05bd87c00f7ca6084c0cb541c3f7bf8edab7913f266018b7be",
+          "bytes": 13261,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/405576b736e6-LICENSE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/e27860a8ce76-LICENSE.txt",
+          "sha256": "89374f8cc48236dccfcd0cea43974f7ee4f4bf77c8649da71c7c4cfef515f0d7",
+          "bytes": 11365,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/224e1f8f426e-LICENSE.txt",
+          "sha256": "89374f8cc48236dccfcd0cea43974f7ee4f4bf77c8649da71c7c4cfef515f0d7",
+          "bytes": 11365,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/95fe24c6beda-LICENSE.txt",
+          "sha256": "89374f8cc48236dccfcd0cea43974f7ee4f4bf77c8649da71c7c4cfef515f0d7",
+          "bytes": 11365,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/ff288dbb270f-LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/39d88349af02-LICENSE",
+          "sha256": "83965b843b98f670d3a85bd041ed4b372c8ec50d7b4a5995a83ac697ba675dcb",
+          "bytes": 1684,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/3f32bbd13dc9-LICENSE",
+          "sha256": "9a682a56cffc9524dfa9b0b1c0dca9cb81a19e96d5bd0793aaf02c08a95ee7ca",
+          "bytes": 14990,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/824f99505b88-LICENSE",
+          "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+          "bytes": 1732,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/b478bb19d70f-LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/ee8f9325af79-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/40162dd46f88-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/0024f4279d73-LICENSE",
+          "sha256": "5e0df8c845c742e76f2f64d2d9ce1b7e74a2422fddbc577ae6a56319083de0bf",
+          "bytes": 11386,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/26b55aa2f7c3-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/ae2c16819490-LICENSE",
+          "sha256": "5a629d2b868081d8af08bbce5d038116f3a0e2e0d4ce9adf4d53f14e76b6b2e0",
+          "bytes": 1065,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/418ca3d1f7f1-LICENSE",
+          "sha256": "984ce1e0b8ee89d234e28b960381f240e03a07a8031f35012f9c3256f56964e2",
+          "bytes": 1162,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/aba876cfe582-LICENSE",
+          "sha256": "57814a606b4d0fb087d9a534919084b6c11b58a4174cb5a4aef200187780dc3a",
+          "bytes": 1378,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/ec375d4fdda8-LICENSE",
+          "sha256": "83965b843b98f670d3a85bd041ed4b372c8ec50d7b4a5995a83ac697ba675dcb",
+          "bytes": 1684,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/77c3c67fdd4d-LICENSE.rst",
+          "sha256": "e6d6fdbfc09c9cc1bfc55946ca9690dd9276deeaed2b72ac7fc5c79bde80ff32",
+          "bytes": 1443,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/9c75f241ec32-LICENSE.txt",
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+          "bytes": 1338,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/f1ac6e341ca8-LICENSE.txt",
+          "sha256": "f4dcef0d1f0520b414d5bfaeed8df02f188e4ec05c0a17bf1c18f25f6cc66245",
+          "bytes": 1535,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/917d17d8acb5-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/6756e9a9ff23-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/c56b1b12973b-LICENSE",
+          "sha256": "5e0df8c845c742e76f2f64d2d9ce1b7e74a2422fddbc577ae6a56319083de0bf",
+          "bytes": 11386,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/42ec7cae0f7c-LICENSE",
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/6ed11c0dd5a4-LICENSE",
+          "sha256": "876e8f7432440974ee5543a2aa1344370ef1f2f7949ad98a1f3899cf722d5631",
+          "bytes": 577,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/355081c5f47d-LICENSE",
+          "sha256": "16de0c32b265cb7d46a6d3bd614f259dd4d693a5e26b3407b04aae8d73041f0c",
+          "bytes": 1079,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/acee1c92edd7-LICENSE",
+          "sha256": "9a37ea54aa3cf12c7f3292799f20822ffd4b9b7142b36a7a9997b28c39264dc9",
+          "bytes": 1676,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/ad13cd4a7609-LICENSE.txt",
+          "sha256": "23c817ddf55e9a8ea332a376e6c23469c31a6c833516385cf0662767ba863276",
+          "bytes": 2749,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/4f73bb9c13a8-LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "bytes": 197,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/568ef02dec14-LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/63c9efa00504-LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+          "bytes": 1344,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/torch/43e0660fee92-LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MPL-2.0 AND MIT",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/tqdm/tqdm",
+      "package_index": "https://pypi.org/project/tqdm/4.70.1/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/tqdm/6539f81fd7cb-LICENCE",
+          "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+          "bytes": 1985,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "transformers",
+      "version": "5.20.2",
+      "relationship": "resolved transitive or build dependency",
+      "license": "Apache-2.0",
+      "license_evidence": "installed package license metadata and/or verbatim notice text",
+      "upstream": "https://github.com/huggingface/transformers",
+      "package_index": "https://pypi.org/project/transformers/5.20.2/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/transformers/5c709af65dd7-LICENSE",
+          "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+          "bytes": 11418,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "typer",
+      "version": "0.27.3",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/fastapi/typer",
+      "package_index": "https://pypi.org/project/typer/0.27.3/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/typer/a24d40995bb5-LICENSE",
+          "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
+          "bytes": 1086,
+          "source": "verbatim installed distribution notice"
+        },
+        {
+          "path": "third_party/licenses/python/typer/8dba87f7acb4-LICENSE.txt",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+          "bytes": 1475,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "PSF-2.0",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/python/typing_extensions",
+      "package_index": "https://pypi.org/project/typing_extensions/4.16.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/typing-extensions/2231b6c46c06-LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "bytes": 13936,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "relationship": "resolved transitive or build dependency",
+      "license": "MIT",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://pypi.org/project/urllib3/",
+      "package_index": "https://pypi.org/project/urllib3/2.8.0/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/urllib3/3677f050c961-LICENSE.txt",
+          "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+          "bytes": 1093,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    },
+    {
+      "name": "yt-dlp",
+      "version": "2026.8.19",
+      "relationship": "direct integration",
+      "license": "Unlicense",
+      "license_evidence": "installed PEP 639 metadata",
+      "upstream": "https://github.com/yt-dlp/yt-dlp",
+      "package_index": "https://pypi.org/project/yt-dlp/2026.8.19/",
+      "license_files": [
+        {
+          "path": "third_party/licenses/python/yt-dlp/9dc1caa052ca-LICENSE",
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+          "bytes": 1211,
+          "source": "verbatim installed distribution notice"
+        }
+      ]
+    }
+  ],
+  "additional_upstream_notices": [
+    {
+      "name": "mlx-whisper",
+      "upstream": "https://github.com/ml-explore/mlx-examples",
+      "url": "https://github.com/ml-explore/mlx-examples/blob/main/LICENSE",
+      "license": "MIT",
+      "relationship": "runtime notice fallback; the wheel omits a license file",
+      "path": "third_party/licenses/upstream/mlx-whisper-LICENSE",
+      "git_blob_sha": "98ff47b9ef9d4ac9f1a4bde3db13dd27456c5ea1",
+      "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01",
+      "bytes": 1066,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    },
+    {
+      "name": "tokenizers",
+      "upstream": "https://github.com/huggingface/tokenizers",
+      "url": "https://github.com/huggingface/tokenizers/blob/main/LICENSE",
+      "license": "Apache-2.0",
+      "relationship": "runtime notice fallback; the wheel omits a license file",
+      "path": "third_party/licenses/upstream/tokenizers-LICENSE",
+      "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    },
+    {
+      "name": "openai-whisper",
+      "upstream": "https://github.com/openai/whisper",
+      "url": "https://github.com/openai/whisper/blob/main/LICENSE",
+      "license": "MIT",
+      "relationship": "upstream ASR implementation; does not settle the converted model card license",
+      "path": "third_party/licenses/upstream/openai-whisper-LICENSE",
+      "git_blob_sha": "d25552598bb9c5400612159ed4bab92ce12a5ce5",
+      "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d",
+      "bytes": 1063,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    },
+    {
+      "name": "qwen3-tts",
+      "upstream": "https://github.com/QwenLM/Qwen3-TTS",
+      "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/LICENSE",
+      "license": "Apache-2.0",
+      "relationship": "upstream TTS implementation; model cards are reviewed separately",
+      "path": "third_party/licenses/upstream/qwen3-tts-LICENSE",
+      "git_blob_sha": "c347eb5ec781d2702623e8e2b5923fa1a766a64d",
+      "sha256": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655",
+      "bytes": 11343,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    },
+    {
+      "name": "ollama",
+      "upstream": "https://github.com/ollama/ollama",
+      "url": "https://github.com/ollama/ollama/blob/main/LICENSE",
+      "license": "MIT",
+      "relationship": "optional separately installed text server",
+      "path": "third_party/licenses/upstream/ollama-LICENSE",
+      "git_blob_sha": "8e3dc978a7ca8c53f56bbedc5b558116140fc02e",
+      "sha256": "5934ed2ce0d15154bcdb9c85203210abac0da4314af34081e36df4599f90b226",
+      "bytes": 1058,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    },
+    {
+      "name": "uv-mit-option",
+      "upstream": "https://github.com/astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv/blob/main/LICENSE-MIT",
+      "license": "MIT OR Apache-2.0",
+      "relationship": "separately installed environment tool; MIT option reproduced",
+      "path": "third_party/licenses/upstream/uv-mit-option-LICENSE-MIT",
+      "git_blob_sha": "014835144877ea9c926d027ece3e1a26290cf481",
+      "sha256": "860e3d7a86b84e6a7012c7a635fc64df475cebc6cce34dfeb73a5982ec58176c",
+      "bytes": 1077,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    },
+    {
+      "name": "opencreator",
+      "upstream": "https://github.com/krillinai/OpenCreator",
+      "url": "https://github.com/krillinai/OpenCreator/blob/master/LICENSE",
+      "license": "Apache-2.0",
+      "relationship": "related workflow reference, formerly KrillinAI; not embedded or called by this CLI",
+      "path": "third_party/licenses/upstream/opencreator-LICENSE",
+      "git_blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    },
+    {
+      "name": "hermes-agent",
+      "upstream": "https://github.com/NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent/blob/main/LICENSE",
+      "license": "MIT",
+      "relationship": "optional agent operator, not embedded or required",
+      "path": "third_party/licenses/upstream/hermes-agent-LICENSE",
+      "git_blob_sha": "75410e73319c72cd3e991a501c5455eb78f38375",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    },
+    {
+      "name": "codex",
+      "upstream": "https://github.com/openai/codex",
+      "url": "https://github.com/openai/codex/blob/main/LICENSE",
+      "license": "Apache-2.0",
+      "relationship": "optional agent operator, not embedded or required",
+      "path": "third_party/licenses/upstream/codex-LICENSE",
+      "git_blob_sha": "4606e72e042564097e8780d66c1d4dcb611869bd",
+      "sha256": "d17f227e4df5da1600391338865ce0f3055211760a36688f816941d58232d8dc",
+      "bytes": 10926,
+      "checked_on": "2026-10-23",
+      "ok": true,
+      "version_scope": "upstream notice snapshot, not a claim that a HEAD notice establishes all historical releases"
+    }
+  ],
+  "caveats": [
+    "A dependency metadata label is not an exhaustive audit of every file in a wheel.",
+    "The locked list does not enumerate every native library embedded in independently installed executables.",
+    "FFmpeg, libx264, libass, libsndfile, PortAudio, models and media have independent terms.",
+    "The pinned converted Whisper model card has no explicit license field; do not infer MIT for that repository."
+  ]
+}

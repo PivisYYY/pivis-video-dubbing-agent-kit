@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "notes": {
+    "scope": "Hugging Face speech-model pins only. LLM backends (e.g. a local Ollama server) are separate: the receiving agent must inspect available models, licenses and sizes for the real hardware and pull them only after explicit authorization.",
+    "downloads": "Nothing is downloaded automatically. Fetching requires the explicit --accept-download flag on 'python -m dubkit models fetch' or 'run'.",
+    "redistribution": "Weights live in the recipient's local Hugging Face cache. Do not re-upload, bundle or ship them with any output package.",
+    "verified_source": "Pinned identifiers and file metadata from the public Hugging Face API. No model weights are included in this source package."
+  },
+  "models": {
+    "asr": {
+      "kind": "asr",
+      "engine": "mlx-whisper",
+      "repo_id": "mlx-community/whisper-large-v3-turbo",
+      "revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+      "license": "unspecified",
+      "license_note": "The model card at this revision declares no license field. Check the upstream OpenAI Whisper model and its license/terms (https://github.com/openai/whisper) before any redistribution or commercial use; do not assume MIT.",
+      "approx_total_size_bytes": 1613979758,
+      "integrity": {
+        "required": [
+          "config.json"
+        ],
+        "groups": [
+          {
+            "any_of": [
+              "weights.safetensors",
+              "weights.npz",
+              "model.safetensors"
+            ]
+          }
+        ]
+      }
+    },
+    "tts": {
+      "kind": "tts",
+      "engine": "mlx-audio (Qwen3-TTS, Base checkpoint)",
+      "repo_id": "mlx-community/Qwen3-TTS-12Hz-0.6B-Base-8bit",
+      "revision": "50f45ef0047cde7e84c2ef04326acb8ada2436a7",
+      "license": "apache-2.0",
+      "license_note": "Declared as apache-2.0 on the model card.",
+      "usage_note": "Base checkpoint ships no built-in voices: voice cloning requires the user's own explicit reference audio (--ref-audio with --ref-text-file).",
+      "approx_total_size_bytes": 1991299138,
+      "integrity": {
+        "required": [
+          "config.json",
+          "speech_tokenizer/config.json"
+        ],
+        "groups": [
+          {
+            "any_of": [
+              "model.safetensors",
+              "model.safetensors.index.json",
+              "weights.npz"
+            ]
+          },
+          {
+            "any_of": [
+              "speech_tokenizer/model.safetensors",
+              "speech_tokenizer/model.safetensors.index.json",
+              "speech_tokenizer/weights.npz"
+            ]
+          }
+        ]
+      }
+    },
+    "custom_tts": {
+      "kind": "tts",
+      "engine": "mlx-audio (Qwen3-TTS, CustomVoice checkpoint)",
+      "repo_id": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "revision": "049ef77fe8816b536193c0c25f9a214d17921282",
+      "license": "apache-2.0",
+      "license_note": "Declared as apache-2.0 on the model card.",
+      "usage_note": "Ships pretrained custom voices, so the default flow works without any private reference audio.",
+      "approx_total_size_bytes": 1973575388,
+      "integrity": {
+        "required": [
+          "config.json",
+          "speech_tokenizer/config.json"
+        ],
+        "groups": [
+          {
+            "any_of": [
+              "model.safetensors",
+              "model.safetensors.index.json",
+              "weights.npz"
+            ]
+          },
+          {
+            "any_of": [
+              "speech_tokenizer/model.safetensors",
+              "speech_tokenizer/model.safetensors.index.json",
+              "speech_tokenizer/weights.npz"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-dubbing-agent-kit"
+version = "0.1.0"
+description = "Agent-operable local video dubbing pipeline for Apple Silicon"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = ["yt-dlp>=2025.1"]
+
+[project.optional-dependencies]
+speech = ["mlx-audio==0.5.1", "mlx-whisper==0.4.3", "huggingface-hub>=0.30,<2", "soundfile>=0.13,<0.14"]
+
+[project.scripts]
+dubkit = "dubkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dubkit*"]
