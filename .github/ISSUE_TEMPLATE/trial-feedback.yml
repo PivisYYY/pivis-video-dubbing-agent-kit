@@ -1,0 +1,72 @@
+name: "试用反馈 / Trial feedback"
+description: "预览版试用结果与改进建议 / Preview trial results and suggestions"
+title: "[Trial] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢试用。当前仅 Apple Silicon Mac、单说话人英文 → 中文；机器通过不等于人工验收。可用中文或英文填写。
+        Preview: Apple Silicon Mac, single English speaker → Chinese. Machine checks are not human acceptance. English is welcome.
+
+        **这是公开 Issue / This issue is public.**
+        不要上传私人视频、参考音频、完整日志或 job、转录字幕、凭证、签名 URL、个人路径、设备名称或标识。
+        Do not attach private video, reference audio, full logs/jobs, transcripts, credentials, signed URLs, personal paths, device names or identifiers.
+        仅填写人工检查后的最小信息；不要粘贴工具的完整原始输出。不确定是否安全就省略。
+        Share only manually reviewed minimal information, never complete raw tool output. Omit anything you cannot safely sanitize.
+  - type: checkboxes
+    id: privacy-review
+    attributes:
+      label: "公开信息检查 / Public information review"
+      options:
+        - label: "我已人工检查全部内容与附件，不含上述私人或敏感资料 / I manually reviewed all content and attachments and excluded the private or sensitive data listed above."
+          required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "环境概况 / Environment summary"
+      description: "只写 macOS 版本、Apple 芯片系列、Python/uv/FFmpeg 版本、文本后端类型；不知道的写未知。不要运行或粘贴完整系统报告，不要填序列号、UUID、主机名、账号、地址或私人路径。 / Only general OS, chip family, tool versions and text backend type; unknown is OK. No full system report or identifiers."
+      placeholder: "macOS: …; chip family: M-series; Python: …; uv: …; FFmpeg: …; text backend: local Ollama / other / not reached"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Kit 版本 / Kit version"
+      description: "仅仓库 commit 短 SHA 或版本；不清楚填 unknown。不要粘贴完整 git 输出或远端地址。 / Short repository commit SHA or version; use unknown if unsure. No full git output or remote URL."
+      placeholder: "short SHA / version / unknown"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: "试用进度 / Furthest stage attempted"
+      options:
+        - "环境检查 / Environment check"
+        - "安装或模型准备 / Install or model setup"
+        - "短样片运行 / Sample run"
+        - "样片机器检查通过，未听审 / Sample machine checks passed, not listened"
+        - "已听审样片 / Sample listened to and inspected"
+        - "全片尝试（不代表已验收） / Full-video attempt (not proof of acceptance)"
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: "结果与人工检查 / Result and human review"
+      description: "简述通过或受阻阶段；明确是否实际连续听审、看过字幕。尚未运行也可说明。不要附视频、音频、台词或完整报告。 / Summarize what passed or blocked you and whether you actually listened and inspected subtitles. No media, dialogue, or full reports."
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "最希望改进的一点 / Main improvement suggestion"
+      description: "可选；只描述流程或文档问题，不提供私人素材。 / Optional: workflow or documentation feedback only, no private source material."
+    validations:
+      required: false
+  - type: textarea
+    id: minimal-error
+    attributes:
+      label: "可选的最小报错 / Optional minimal error"
+      description: "仅手工摘录已检查的错误类别及最少几行，替换私人路径为 <path>，省略 URL、台词、账号和密钥；无法安全摘录就留空。不要上传完整日志、state.json 或 doctor 输出。 / Manually reviewed error type and only essential lines; use <path> and omit URLs, dialogue, accounts and secrets. Leave blank if unsafe. No full logs, state.json or doctor output."
+    validations:
+      required: false

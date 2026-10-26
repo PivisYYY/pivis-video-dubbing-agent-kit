@@ -1,14 +1,19 @@
 # Pivis Video Dubbing Agent Kit
 
-[源码许可：MIT](LICENSE) · [致谢](ACKNOWLEDGEMENTS.md) · [第三方许可声明](THIRD_PARTY_NOTICES.md) · [验证边界](VALIDATION.md)
+**让 Hermes、Codex 等 Agent 操作现成代码的本地英文视频 → 中文译配管线。** 按 [AGENTS.md](AGENTS.md) 准备环境、跑短样片并分层验收，不必从零猜一套管线。
 
-把这个项目交给 Hermes、Codex 或其他具备文件、终端和网络工具的 AI Agent，让它根据 **AGENTS.md** 操作现成代码，准备模型、跑样片并验收视频，而不是从零猜一套管线。
+A local English-to-Chinese video dubbing pipeline operated by agents such as Hermes or Codex through existing code and explicit instructions.
 
-> 当前为 Apple Silicon Mac 单说话人路线的可运行预览版。语音使用 MLX，文本翻译可用 Ollama 或授权的兼容接口。真实验收边界见 VALIDATION.md。不承诺全平台、一键零审批、自动多说话人或所有视频自动达到交付质量。
+[English](README.en.md) · [快速上手](docs/QUICKSTART.md) · [源码许可：MIT](LICENSE) · [验证边界](VALIDATION.md) · [致谢](ACKNOWLEDGEMENTS.md) · [第三方许可声明](THIRD_PARTY_NOTICES.md)
+
+> [!WARNING]
+> **预览版，招募试用；当前仅支持 Apple Silicon Mac + 单说话人英文源语音。** 需要 Python 3.11、uv 和 FFmpeg；语音使用 MLX，文本翻译可用本地 Ollama 或另行授权的远程兼容接口。
+>
+> 公开 CLI 目前只记录 **11.007 秒、单句样片的机器检查通过**，尚未取得使用者听审批准；全片、多人、第二台 Mac 和跨平台均未验收。独立目录的新虚拟环境不等于第二台电脑。详见 [VALIDATION.md](VALIDATION.md)。不承诺一键零审批、全自动、任意声音克隆或所有视频自动达到交付质量。
 
 ## 原片与中文译配对照
 
-先看真实效果：下列 **5 组**来自此前完成的历史管线，左侧打开官方原片，右侧动图预览画面并链接到中文 MP4。原片链接从对应时间附近开始；不重新上传整部原片。
+先看历史效果：下列 **5 组**来自此前完成的历史管线，左侧打开官方原片，右侧动图预览画面并链接到中文 MP4。原片链接从对应时间附近开始；不重新上传整部原片。
 
 **这些是历史作品展示，不是由本仓库新版 CLI 批量生成的验收案例。** 历史字幕样式可能为单语或独立时间轨；新版 CLI 的真实运行范围仍以 [VALIDATION.md](VALIDATION.md) 为准。
 
@@ -28,7 +33,25 @@
 
 > 阅读仓库根目录 AGENTS.md、README.md、models.json。按我的电脑配置检查和准备环境、选择兼容的本地文本模型，在我授权后安装依赖及下载模型。先为我提供的视频做完整中文译配短样片；机器检查后交给我试听确认，再跑全片。遇到问题定位后局部修复、断点续跑，不放宽质量门禁，不上传我的任何资料。
 
-不是所有 Agent 都自动读取 AGENTS.md；**明确让它阅读**，并给予完成任务所需但不过量的权限。
+不是所有 Agent 都自动读取 AGENTS.md；**明确让它阅读**，并给予完成任务所需但不过量的权限。需要它具备文件、终端及经授权的网络工具；本项目不内嵌 Agent，也不改其账号或配置。
+
+## 最短上手与反馈
+
+```bash
+git clone https://github.com/PivisYYY/pivis-video-dubbing-agent-kit.git
+cd pivis-video-dubbing-agent-kit
+python3 -m dubkit doctor
+```
+
+这一步只检查环境，**不会安装依赖、下载模型或生成视频**。然后按 [快速上手](docs/QUICKSTART.md) 分步授权安装、准备本地文本模型并做短样片；也可将上面的一句话连同仓库交给 Agent。下面保留完整命令与能力说明。
+
+- [提交试用反馈](https://github.com/PivisYYY/pivis-video-dubbing-agent-kit/issues/new?template=trial-feedback.yml)：欢迎报告在哪一步通过／受阻，区分机器通过与人工听审。
+- [报告故障](https://github.com/PivisYYY/pivis-video-dubbing-agent-kit/issues/new?template=bug-report.yml)：只提供人工检查后的最小报错与环境概况。
+- **Issue 为公开页面**：不要上传私人视频、参考音频、完整日志／job、转录字幕、凭证、含签名的 URL、个人路径或设备标识；不确定是否安全就省略。先读 [支持范围](docs/SUPPORT.md) 与 [隐私边界](docs/PRIVACY.md)。
+
+---
+
+以下是详细流程、命令、故障处理与许可说明。
 
 ## 实际流程
 

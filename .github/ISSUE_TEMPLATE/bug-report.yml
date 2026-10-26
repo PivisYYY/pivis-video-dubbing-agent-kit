@@ -1,0 +1,76 @@
+name: "故障反馈 / Bug report"
+description: "用最小报错与环境概况报告故障 / Report a failure with minimal safe details"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        当前预览版仅 Apple Silicon Mac、单说话人英文 → 中文。先看 README、VALIDATION.md 与 docs/SUPPORT.md；未支持的平台或多人路线不能当成已验证能力。
+        Preview: Apple Silicon Mac, single English speaker → Chinese. Please read README, VALIDATION.md and docs/SUPPORT.md for support and validation limits. English reports are welcome.
+
+        **这是公开 Issue / This issue is public.**
+        不要上传私人视频、参考音频、完整日志或 job、转录字幕、凭证、签名 URL、个人路径、设备名称或标识；不要附完整 doctor、系统或环境变量输出。
+        Do not attach private video, reference audio, full logs/jobs, transcripts, credentials, signed URLs, personal paths, device names/identifiers, or full doctor/system/environment output.
+        只人工摘录最少必要信息；不确定能否安全公开时省略并说明。维护者不需要你的私人素材或凭证。
+        Manually review and share only the minimum needed. If unsafe, omit it and say so. Maintainers do not need your private media or credentials.
+  - type: checkboxes
+    id: privacy-review
+    attributes:
+      label: "公开信息检查 / Public information review"
+      options:
+        - label: "我已人工检查全部内容与附件，不含上述私人或敏感资料 / I manually reviewed all content and attachments and excluded the private or sensitive data listed above."
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Kit 版本 / Kit version"
+      description: "仅 commit 短 SHA 或版本；不知道填 unknown，不粘贴完整 git 输出或远端地址。 / Short commit SHA or version, or unknown. No full git output or remote URL."
+      placeholder: "short SHA / version / unknown"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "环境概况 / Environment summary"
+      description: "手填 macOS 版本、Apple 芯片系列、Python/uv/FFmpeg 版本、文本后端类型；可写未知。不填序列号、UUID、主机名、账号、IP、服务地址或私人路径，不附完整工具输出。 / General OS, chip family, tool versions, text backend type; unknown is OK. No identifiers, addresses, personal paths, or raw output."
+      placeholder: "macOS: …; chip family: …; Python: …; uv: …; FFmpeg: …; text backend: local Ollama / other / not reached"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: "失败阶段 / Failure stage"
+      options:
+        - "环境检查 / Doctor"
+        - "安装 / Bootstrap"
+        - "模型获取 / Model fetch"
+        - "ASR / Source transcription"
+        - "翻译或语义审校 / Translation or semantic review"
+        - "TTS 或中文 ASR 门禁 / TTS or Chinese ASR gate"
+        - "字幕、混音或渲染 / Subtitles, mix or render"
+        - "verify / Verification"
+        - "续跑、修订或批准 / Resume, revise or approval"
+        - "其他或不确定 / Other or unknown"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "最小复现步骤 / Minimal reproduction steps"
+      description: "只写操作顺序及必要的非敏感参数；输入文件用 input.mp4、job 用 work/sample 代替。不要贴带凭证、URL、私人路径或台词的原命令，也不需要提供媒体。 / Steps and essential non-sensitive options only; use input.mp4 and work/sample. No credential-bearing commands, URLs, personal paths, dialogue, or media."
+    validations:
+      required: true
+  - type: textarea
+    id: minimal-error
+    attributes:
+      label: "人工检查后的最小报错 / Manually reviewed minimal error"
+      description: "只写错误类别与必要的几行，路径替换为 <path>；删除 URL、账号、密钥与台词，不贴完整 traceback、日志、state.json 或报告。不能安全摘录时写 omitted for privacy，并用自己的话概述。 / Error type and essential lines only; use <path>, remove URLs, accounts, secrets and dialogue. No full traceback/log/state/report. If unsafe, write omitted for privacy and paraphrase."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: "预期、实际与已尝试处理 / Expected, actual, and attempted fixes"
+      description: "简述即可；区分机器状态与实际听审。不要为了通过而放宽质量门禁、编辑 checkpoint 或重复触发收费请求。 / Briefly distinguish machine status from actual listening review. Do not weaken gates, edit checkpoints, or repeatedly trigger paid requests."
+    validations:
+      required: true
